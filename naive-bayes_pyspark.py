@@ -26,8 +26,8 @@ stop_words = ['a', 'able', 'about', 'across', 'after', 'all', 'almost', 'also',
 
 
 
-AWS_ACCESS_KEY_ID = "AKIAI2RULIS6VKBC2A4A"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 
 sc._jsc.hadoopConfiguration().set("fs.s3n.awsAccessKeyId", AWS_ACCESS_KEY_ID)
 sc._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", AWS_SECRET_ACCESS_KEY)
